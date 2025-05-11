@@ -1,0 +1,104 @@
+Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\main.c)(0x62456D6A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\drive -I ..\..\..\..\..\components -I ..\..\..\..\..\components\libraries\delay -I ..\..\..\..\..\modules\nrfx\hal -I ..\..\..\..\..\modules\nrfx -I ..\config -I ..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\modules\nrfx\drivers -I ..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\components\libraries\balloc --reduce_paths-I.\RTE\_Target_1-IE:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52832_XXAA -D_RTE_ -DBOARD_PCA10040 -DBSP_DEFINES_ONLY -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DNRF52832_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x5AB3BCC3)
+I (..\..\..\..\..\modules\nrfx\nrfx.h)(0x5AB3BCC8)
+I (..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x5AB3BCC8)
+I (..\config\sdk_config.h)(0x5AB3BCC7)
+I (..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x5AB3BCC8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf.h)(0x5E5F512C)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52.h)(0x5E5F5134)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\system_nrf52.h)(0x5E5F5126)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_bitfields.h)(0x5E5F5126)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf51_to_nrf52.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_name_change.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\compiler_abstraction.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf_peripherals.h)(0x5E5F5132)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52832_peripherals.h)(0x5E5F5130)
+I (..\..\..\..\..\integration\nrfx\nrfx_glue.h)(0x5AB3BCC8)
+I (..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h)(0x5AB3BCC8)
+I (..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h)(0x5AB3BCC8)
+I (..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52832.h)(0x5AB3BCC8)
+I (..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_util.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\nordic_common.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_error.h)(0x5AB3BCC3)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x5AB3BCC3)
+I (..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x5AB3BCC8)
+I (..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x5AB3BCC3)
+I (..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x5AB3BCC8)
+I (..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x5AB3BCC8)
+I (..\..\..\..\..\drive\led.h)(0x5CB2AB7F)
+F (..\..\..\..\..\drive\led.c)(0x5CB2AC22)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\drive -I ..\..\..\..\..\components -I ..\..\..\..\..\components\libraries\delay -I ..\..\..\..\..\modules\nrfx\hal -I ..\..\..\..\..\modules\nrfx -I ..\config -I ..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\modules\nrfx\drivers -I ..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\components\libraries\balloc --reduce_paths-I.\RTE\_Target_1-IE:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52832_XXAA -D_RTE_ -DBOARD_PCA10040 -DBSP_DEFINES_ONLY -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DNRF52832_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52.h)(0x5E5F5134)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\system_nrf52.h)(0x5E5F5126)
+I (..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x5AB3BCC8)
+I (..\..\..\..\..\modules\nrfx\nrfx.h)(0x5AB3BCC8)
+I (..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x5AB3BCC8)
+I (..\config\sdk_config.h)(0x5AB3BCC7)
+I (..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x5AB3BCC8)
+I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf.h)(0x5E5F512C)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_bitfields.h)(0x5E5F5126)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf51_to_nrf52.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_name_change.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\compiler_abstraction.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf_peripherals.h)(0x5E5F5132)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52832_peripherals.h)(0x5E5F5130)
+I (..\..\..\..\..\integration\nrfx\nrfx_glue.h)(0x5AB3BCC8)
+I (..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h)(0x5AB3BCC8)
+I (..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h)(0x5AB3BCC8)
+I (..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52832.h)(0x5AB3BCC8)
+I (..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_util.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\nordic_common.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_error.h)(0x5AB3BCC3)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5AB3BCC3)
+I (..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x5AB3BCC3)
+I (..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x5AB3BCC8)
+I (..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x5AB3BCC3)
+I (..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x5AB3BCC8)
+I (..\..\..\..\..\drive\led.h)(0x5CB2AB7F)
+F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x5E5F511E)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-IE:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "NRF52832_XXAA SETA 1" --pd "_RTE_ SETA 1"--list .\listings\arm_startup_nrf52.lst --xref -o .\objects\arm_startup_nrf52.o --depend .\objects\arm_startup_nrf52.d)
+F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x5E5F5128)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\..\drive -I ..\..\..\..\..\components -I ..\..\..\..\..\components\libraries\delay -I ..\..\..\..\..\modules\nrfx\hal -I ..\..\..\..\..\modules\nrfx -I ..\config -I ..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\modules\nrfx\drivers -I ..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\components\libraries\balloc --reduce_paths-I.\RTE\_Target_1-IE:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52832_XXAA -D_RTE_ -DBOARD_PCA10040 -DBSP_DEFINES_ONLY -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DNRF52832_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf.h)(0x5E5F512C)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52.h)(0x5E5F5134)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D3E8E2)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\system_nrf52.h)(0x5E5F5126)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_bitfields.h)(0x5E5F5126)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf51_to_nrf52.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_name_change.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\compiler_abstraction.h)(0x5E5F512E)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf_erratas.h)(0x5E5F5132)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf51_erratas.h)(0x5E5F5132)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf52_erratas.h)(0x5E5F5132)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf53_erratas.h)(0x5E5F5132)
+I (E:\Users\Administrator\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.32.1\Device\Include\nrf91_erratas.h)(0x5E5F5132)
