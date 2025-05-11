@@ -1,1 +1,1 @@
-这是点亮LED灯，工程主入口在F:\01test\demo6\led\examples\peripheral\blinky\main.c中
+这是点亮LED灯，工程主入口在led\examples\peripheral\blinky\main.c中
